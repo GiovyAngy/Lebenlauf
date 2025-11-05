@@ -4,7 +4,7 @@
 
 
 ### 🌟 Über dieses Projekt
-Dieses Repository enthält den Quellcode für meine persönliche <a href="https://giovyangy.github.io/Lebenlauf/index.html" target="_blank"><img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Fimg.shields.io"></a>
+Dieses Repository enthält den Quellcode für meine persönliche <a href="https://giovyangy.github.io/Lebenlauf/index.html"><img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Fimg.shields.io"></a>
 , die als mein Lebenslauf dient. Das Template dieser Seite ist Open Source und wurde kopiert und an meine beruflichen Erfahrungen und meine Persönlichkeit angepasst.
 
 ### ⚠️ Hinweis
@@ -24,7 +24,7 @@ Für Fragen oder Anregungen kontaktieren Sie mich bitte unter giovyangydev@gmail
 
 
 ### 🌟 About This Project
-This repository contains the source code for my personal <a href="https://giovyangy.github.io/Lebenlauf/index.html" target="_blank"><img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Fimg.shields.io"></a>, which serves as my resume. The template of this site is open source and has been copied and adapted to reflect my professional experience and personality.
+This repository contains the source code for my personal <a href="https://giovyangy.github.io/Lebenlauf/index.html"><img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Fimg.shields.io"></a>, which serves as my resume. The template of this site is open source and has been copied and adapted to reflect my professional experience and personality.
 
 ### ⚠️ Note
 Feel free to use this template for your own purposes, but without including my personal data and/or files.
