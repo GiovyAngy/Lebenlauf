@@ -17,7 +17,7 @@ git clone [https://github.com/your-username/your-repo.git](https://github.com/Gi
 Kopieren
 Passen Sie die Inhalte an Ihre eigenen Daten an.
 ### 📬 Kontakt
-Für Fragen oder Anregungen kontaktieren Sie mich bitte unter your-email@example.com.
+Für Fragen oder Anregungen kontaktieren Sie mich bitte unter giovyangydev@gmail.com.
 
 ### English
 
@@ -37,4 +37,4 @@ git clone [https://github.com/your-username/your-repo.git](https://github.com/Gi
 Kopieren
 Customize the content with your own data.
 📬 Contact
-For questions or suggestions, please contact me at your-email@example.com.
+For questions or suggestions, please contact me at giovyangydev@gmail.com.
