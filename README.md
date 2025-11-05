@@ -13,7 +13,7 @@ Sie dürfen dieses Template gerne für Ihre eigenen Zwecke verwenden, jedoch ohn
 
 ### 🚀 Wie man beginnt
 Klonen Sie das Repository:
-git clone [https://github.com/your-username/your-repo.git](https://github.com/GiovyAngy/Lebenlauf.git)
+[git clone](https://github.com/GiovyAngy/Lebenlauf.git)
 Kopieren
 Passen Sie die Inhalte an Ihre eigenen Daten an.
 ### 📬 Kontakt
@@ -33,8 +33,8 @@ Feel free to use this template for your own purposes, but without including my p
 
 ### 🚀 Getting Started
 Clone the repository:
-git clone [https://github.com/your-username/your-repo.git](https://github.com/GiovyAngy/Lebenlauf.git)
+[git clone](https://github.com/GiovyAngy/Lebenlauf.git)
 Kopieren
 Customize the content with your own data.
-📬 Contact
+### 📬 Contact
 For questions or suggestions, please contact me at giovyangydev@gmail.com.
