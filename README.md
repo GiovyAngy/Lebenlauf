@@ -1,8 +1,7 @@
 ### Deutsch
 
 ## 📄 Mein Lebenslauf
-<img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Fgiovyangy.github.io%2FLebenlauf%2Findex.html">
-
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Fgiovyangy.github.io%2FLebenlauf%2Findex.html)](https://giovyangy.github.io/Lebenlauf/index.html)
 
 
 ### 🌟 Über dieses Projekt
@@ -22,7 +21,7 @@ Für Fragen oder Anregungen kontaktieren Sie mich bitte unter giovyangydev@gmail
 ### English
 
 ## 📄 My Resume
-![Website](https://img.shields.io/website?url=https://giovyangy.github.io/Lebenlauf/index.html)
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Fgiovyangy.github.io%2FLebenlauf%2Findex.html)](https://giovyangy.github.io/Lebenlauf/index.html)
 
 
 ### 🌟 About This Project
