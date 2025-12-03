@@ -1,277 +1,469 @@
 <!DOCTYPE html>
 <html lang="de">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Giovanni Angileri - Fachinformatiker für Anwendungsentwicklung | Praktikum ab März 2026">
   <link rel="stylesheet" href="styles/styles.css">
   <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v5.12.1/css/pro.min.css">
-  <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-  <title>Mein CV</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <title>Giovanni Angileri - Fachinformatiker Anwendungsentwicklung</title>
 </head>
-
 <body>
-  <div class="wrapper">
-    <div class="intro">
-      <div class="profile">
-        <div class="photo">
-          <img src="bild/img22.jpeg" alt="Portrait Giovanni Angileri">
-        </div>
-        <div class="bio">
-          <h1 class="name">Giovanni Angileri</h1>
-          <p class="profession">angehender Webentwickler</p>
-        </div>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-photo">
+        <img src="bild/img22.jpeg" alt="Giovanni Angileri - Fachinformatiker">
       </div>
-      <div class="intro-section about">
-        <h1 class="title">Über mich</h1>
-        <p class="paragraph">
-          Ich bin ein aufstrebender Webentwickler mit einer Leidenschaft für das Schreiben von Code und zu sehen, wie alles zusammenkommt und wie von Zauberhand funktioniert.
+      <h1 class="hero-name">Giovanni Angileri</h1>
+      <p class="hero-title">Fachinformatiker für Anwendungsentwicklung</p>
+      <p class="hero-subtitle">Umschulung bei WBS TRAINING</p>
+      
+      <div class="hero-cta">
+        <a href="#kontakt" class="btn-primary">Kontakt aufnehmen</a>
+        <a href="#projekte" class="btn-secondary">Projekte ansehen</a>
+      </div>
+      
+      <div class="hero-social">
+        <a href="https://www.linkedin.com/in/giovanni-angileri-a87983231/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/GiovyAngy" target="_blank" rel="noopener" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <div class="container">
+    
+    <!-- Über Mich Section -->
+    <section id="uber-mich" class="section">
+      <h2 class="section-title">
+        <i class="fas fa-user"></i>
+        Über mich
+      </h2>
+      <div class="about-content">
+        <p>
+          Ich bin ein motivierter Fachinformatiker-Umschüler mit einer großen Leidenschaft für Softwareentwicklung. 
+          Nach meiner erfolgreichen Zwischenprüfung (Note "sehr gut", 92%) suche ich ab <strong>17.03.2026</strong> 
+          ein 6-monatiges Pflichtpraktikum, um meine Kenntnisse in Java, Python und Webentwicklung in realen Projekten anzuwenden.
+        </p>
+        <p>
+          Durch meine langjährige Erfahrung in der Kundenbetreuung bringe ich ausgeprägte Teamfähigkeit, 
+          strukturierte Arbeitsweise und Belastbarkeit mit – Eigenschaften, die auch in der Softwareentwicklung wertvoll sind.
         </p>
       </div>
-      <div class="intro-section contact">
-        <h1 class="title">Wohnort</h1>
-        <div class="info-section">
-          <i class="fas fa-map-marker-alt"></i>
-          <span>Berlin, Deutschland</span>
+      
+      <!-- Achievement Badge -->
+      <div class="achievement-badge">
+        <div class="badge-icon">
+          <i class="fas fa-trophy"></i>
         </div>
-
-        <h1 class="title">Geburtsort</h1>
-        <div class="info-section">
-          <i class="fas fa-map-marker-alt"></i>
-          <span>Mazara del Vallo (Italien)</span>
-        </div>
-
-        <h1 class="title">Geburtsdatum</h1>
-        <div class="info-section">
-          <i class="fas fa-birthday-cake"></i>
-          <span>15.05.1986</span>
-        </div>
-
-        <h1 class="title">Sprachen</h1>
-        <div class="info-section">
-          <i class="fas fa-language"></i>
-          <span>Italienisch: Muttersprache</span>
-        </div>
-        <div class="info-section">
-          <i class="fas fa-language"></i>
-          <span>Deutsch: B2</span>
-        </div>
-        <div class="info-section">
-          <i class="fas fa-language"></i>
-          <span>Englisch: A2</span>
-        </div>
-
-        <h1 class="title">Folgen Sie</h1>
-        <div class="info-section link">
-          <i class="fab fa-linkedin"></i>
-          <a target="_blank" rel="author" href="https://www.linkedin.com/in/giovanni-angileri-a87983231/">LinkedIn</a>
-        </div>
-
-        <div class="info-section link">
-          <i class="fab fa-github"></i>
-          <a target="_blank" rel="author" href="https://github.com/GiovyAngy">GitHub</a>
+        <div class="badge-content">
+          <h3>Zwischenprüfung bestanden</h3>
+          <p>Note: sehr gut (92%)</p>
+          <span class="badge-date">September 2025</span>
         </div>
       </div>
-    </div>
-    <div class="detail">
-      <div class="detail-section edu">
-        <div class="detail-title">
-          <div class="title-icon">
-            <i class="fas fa-user-tie"></i>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <h2 class="section-title">
+        <i class="fas fa-code"></i>
+        Technische Kenntnisse
+      </h2>
+      
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3><i class="fas fa-laptop-code"></i> Programmierung</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">C</span>
+            <span class="skill-tag">SQL</span>
           </div>
-          <span>Berufserfahrung</span>
         </div>
-        <div class="detail-content">
-          <div class="timeline-block">
-            <h1>Call Center Agent</h1>
-            <p>GCH Hotels GmbH, Berlin </p>
-            <time>09.2022 - 08.2024 </time>
+        
+        <div class="skill-category">
+          <h3><i class="fas fa-globe"></i> Web-Entwicklung</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">WordPress</span>
           </div>
-          <div class="timeline-block">
-            <h1>Call Center Agent</h1>
-            <p>Runtime GmbH, Berlin</p>
-            <time>05.2022 - 09.2022</time>
+        </div>
+        
+        <div class="skill-category">
+          <h3><i class="fas fa-tools"></i> Tools & Methoden</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Git/GitHub</span>
+            <span class="skill-tag">SCRUM</span>
+            <span class="skill-tag">IntelliJ IDEA</span>
+            <span class="skill-tag">VS Code</span>
           </div>
-          <div class="timeline-block">
-            <h1>Freiberufler</h1>
-            <p>Tipico Siciliano UG, Berlin & Marsala Italien</p>
-            <time>09.2020 - 02.2022</time>
-          </div>
-          <div class="timeline-block">
-            <h1>Empfangermieterarbeit</h1>
-            <p>Select Hotel Checkpoint Charlie Berlin, Berlin </p>
-            <time>01.2020 - 07.2020 </time>
-          </div>
-          <div class="timeline-block">
-            <h1>Hausdame Assistent</h1>
-            <p>Novotel am Tiergarten, Berlin </p>
-            <time>06.2018 - 11.2019 </time>
-          </div>
-          <div class="timeline-block">
-            <h1>Empfangermieterarbeit</h1>
-            <p>Ibis Budget Stuttgart City Nord, Stuttgart </p>
-            <time>06.2015 - 06.2018 </time>
-          </div>
-          <div class="timeline-block">
-            <h1>Putzman</h1>
-            <p>Lieblang GmbH Mannheim</p>
-            <time>09.2014 - 06.2015</time>
+        </div>
+        
+        <div class="skill-category">
+          <h3><i class="fas fa-database"></i> Weitere</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Datenbanken</span>
+            <span class="skill-tag">Netzwerke</span>
+            <span class="skill-tag">IT-Sicherheit</span>
+            <span class="skill-tag">Agile Methoden</span>
           </div>
         </div>
       </div>
-      <div class="detail-section pg-skill">
-        <div class="detail-title">
-          <div class="title-icon">
-            <i class="fas fa-laptop-code"></i>
+    </section>
+
+    <!-- Projekte Section -->
+    <section id="projekte" class="section">
+      <h2 class="section-title">
+        <i class="fas fa-folder-open"></i>
+        Projekte & Portfolio
+      </h2>
+      
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-icon">
+            <i class="fab fa-java"></i>
           </div>
-          <span>Programming skills</span>
+          <h3>Task Manager (Spring Boot)</h3>
+          <p>Eine kleine Aufgabenverwaltungs-App mit Spring Boot und H2-Datenbank.</p>
+          <div class="project-tech">
+           <span>Java</span>
+          <span>Spring Boot</span>
+          <span>H2</span>
+          <span>HTML</span>
+          <span>Thymeleaf</span>
+              </div>
+          <a href="https://github.com/GiovyAngy" class="project-link" target="_blank" rel="noopener">
+            Auf GitHub ansehen <i class="fas fa-external-link-alt"></i>
+          </a>
         </div>
-        <div class="detail-content">
-          <ul class="pg-list">
-            <li>
-              <span>HTML5</span>
-              <div class="sb-skeleton">
-                <div class="skillbar" style="--pgbar-length: 90%"></div>
-              </div>
-            </li>
-            <li>
-              <span>CSS3</span>
-              <div class="sb-skeleton">
-                <div class="skillbar" style="--pgbar-length: 90%"></div>
-              </div>
-            </li>
-            <li>
-              <span>C</span>
-              <div class="sb-skeleton">
-                <div class="skillbar" style="--pgbar-length: 50%"></div>
-              </div>
-            </li>
-            <li>
-              <span>Java</span>
-              <div class="sb-skeleton">
-                <div class="skillbar" style="--pgbar-length: 60%"></div>
-              </div>
-            </li>
-            <li>
-              <span>Javascript</span>
-              <div class="sb-skeleton">
-                <div class="skillbar" style="--pgbar-length: 30%"></div>
-              </div>
-            </li>
-            <li>
-              <span>Python</span>
-              <div class="sb-skeleton">
-                <div class="skillbar" style="--pgbar-length: 30%"></div>
-              </div>
-            </li>
+        
+        <div class="project-card">
+          <div class="project-icon">
+            <i class="fa-solid fa-chart-line"></i>
+          </div>
+          <h3>Datenbank-Projekt</h3>
+          <p>Finanzmanagement-App mit Java-Backend, SQL-Datenbank, 
+                    RESTful API. Vollständige Anwendung zur Verwaltung persönlicher Finanzen mit Transaktionsverwaltung, Filteroptionen, Datenvisualisierung durch interaktive Diagramme und Export/Import-Funktionen.</p>
+          <div class="project-tech">
+             <span>Java</span>
+             <span>SQL</span>
+             <span>HTML/CSS</span>
+             <span>JavaScript</span>
+             <span>Chart.js</span>
+            </div>
+          <a href="https://github.com/GiovyAngy" class="project-link" target="_blank" rel="noopener">
+            Mehr erfahren <i class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+        
+        <div class="project-card">
+          <div class="project-icon">
+            <i class="fas fa-globe"></i>
+          </div>
+          <h3>Portfolio-Website</h3>
+          <p>Diese interaktive CV-Website, entwickelt mit modernem HTML5, CSS3 und JavaScript.</p>
+          <div class="project-tech">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>Responsive Design</span>
+          </div>
+          <a href="#" class="project-link">
+            Sie sehen es gerade <i class="fas fa-smile"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ausbildung Section -->
+    <section id="ausbildung" class="section">
+      <h2 class="section-title">
+        <i class="fas fa-graduation-cap"></i>
+        Ausbildung & Zertifikate
+      </h2>
+      
+      <div class="education-timeline">
+        <div class="timeline-item featured">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">09.2024 - voraussichtlich 02.2027</span>
+            <h3>Umschulung zum Fachinformatiker für Anwendungsentwicklung (IHK)</h3>
+            <p class="timeline-org">WBS TRAINING AG, Berlin</p>
+            <div class="timeline-highlights">
+              <span class="highlight-badge success">Zwischenprüfung: sehr gut (92%)</span>
+              <span class="highlight-badge">Praktikum: März - November 2026</span>
+            </div>
+            <ul class="timeline-details">
+              <li>Objektorientierte Programmierung (Java)</li>
+              <li>Datenbanken & SQL</li>
+              <li>Web-Entwicklung (HTML, CSS, JavaScript)</li>
+              <li>Netzwerktechnologien & IT-Sicherheit</li>
+              <li>Agile Methoden & Projektmanagement</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h3>Cisco Networking Zertifikate</h3>
+            <ul class="cert-list">
+              <li><a href="https://www.credly.com/badges/e68ee473-35a4-47ed-b9b4-f366dddb3373" target="_blank" rel="noopener">Computer Hardware Basics</a></li>
+              <li><a href="https://www.credly.com/badges/cf2026ed-6d76-42d2-893f-4bdf7ede6d41" target="_blank" rel="noopener">Introduction to Cybersecurity</a></li>
+              <li><a href="https://www.credly.com/badges/100b69b8-40e4-4f58-b813-39b21b71587e" target="_blank" rel="noopener">Networking Basics</a></li>
+              <li><a href="https://www.credly.com/badges/84937347-87de-438b-beb6-5415eb059ccd" target="_blank" rel="noopener">Networking Devices and Initial Configurations</a></li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h3>Weitere Zertifikate</h3>
+            <ul class="cert-list">
+              <li> <a href="files/Digital_Certificate.pdf" target="_blank">Google Digital Marketing</a></li>
+              <li><a href="files/Zertifikat_DCI.pdf" target="_blank">DCI: HTML5 & CSS3</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Berufserfahrung Section -->
+    <section id="erfahrung" class="section">
+      <h2 class="section-title">
+        <i class="fas fa-briefcase"></i>
+        Berufserfahrung
+      </h2>
+      
+      <div class="experience-list">
+        <div class="exp-item">
+          <div class="exp-header">
+            <h3>Call Center Agent</h3>
+            <span class="exp-date">09.2022 - 08.2024</span>
+          </div>
+          <p class="exp-company">GCH Hotels GmbH, Berlin</p>
+          <ul class="exp-highlights">
+            <li>Professionelle Kundenbetreuung und Problemlösung</li>
+            <li>Effiziente Nutzung von CRM-Software</li>
+            <li>Teamarbeit in dynamischem Umfeld</li>
           </ul>
         </div>
-      </div>
-      <div class="detail-section tool-skill">
-        <div class="detail-title">
-          <div class="title-icon">
-            <i class="fas fa-tools"></i>
+        
+        <div class="exp-item">
+          <div class="exp-header">
+            <h3>Call Center Agent</h3>
+            <span class="exp-date">05.2022 - 09.2022</span>
           </div>
-          <span>Developement Tools</span>
+          <p class="exp-company">Runtime GmbH, Berlin</p>
         </div>
-        <div class="detail-content">
-          <ul class="tool-list">
-            <li>
-              <svg viewbox="0 0 100 100">
-                <circle cx="50" cy="50" r="45"></circle>
-                <circle class="cbar" cx="50" cy="50" r="45" style="--percent: 0.6"></circle>
-              </svg>
-              <span class="tl-name">Photoshop</span>
-              <span class="tl-exp">60%</span>
-            </li>
-            <li>
-              <svg viewbox="0 0 100 100">
-                <circle cx="50" cy="50" r="45"></circle>
-                <circle class="cbar" cx="50" cy="50" r="45" style="--percent: 0.8"></circle>
-              </svg>
-              <span class="tl-name">Trello</span>
-              <span class="tl-exp">80%</span>
-            </li>
-            <li>
-              <svg viewbox="0 0 100 100">
-                <circle cx="50" cy="50" r="45"></circle>
-                <circle class="cbar" cx="50" cy="50" r="45" style="--percent: 0.7"></circle>
-              </svg>
-              <span class="tl-name">GitHub</span>
-              <span class="tl-exp">70%</span>
-            </li>
-            <li>
-              <svg viewbox="0 0 100 100">
-                <circle cx="50" cy="50" r="45"></circle>
-                <circle class="cbar" cx="50" cy="50" r="45" style="--percent: 0.9"></circle>
-              </svg>
-              <span class="tl-name">VSC</span>
-              <span class="tl-exp">90%</span>
-            </li>
-            <li>
-              <svg viewbox="0 0 100 100">
-                <circle cx="50" cy="50" r="45"></circle>
-                <circle class="cbar" cx="50" cy="50" r="45" style="--percent: 0.6"></circle>
-              </svg>
-              <span class="tl-name">Microsoft VS</span>
-              <span class="tl-exp">60%</span>
-            </li>
+        
+        <div class="exp-item">
+          <div class="exp-header">
+            <h3>Freiberufler</h3>
+            <span class="exp-date">09.2020 - 02.2022</span>
+          </div>
+          <p class="exp-company">Tipico Siciliano UG, Berlin & Marsala, Italien</p>
+        </div>
+        
+        <div class="exp-item">
+          <div class="exp-header">
+            <h3>Empfangsmitarbeiter & Housekeeping</h3>
+            <span class="exp-date">2015 - 2020</span>
+          </div>
+          <p class="exp-company">Diverse Hotels, Berlin & Stuttgart</p>
+          <p class="exp-summary">Langjährige Erfahrung in Kundenbetreuung, Teamarbeit und strukturierter Arbeitsweise unter Zeitdruck</p>
+        </div>
+      </div>
+    </section>
 
-            <li>
-              <svg viewbox="0 0 100 100">
-                <circle cx="50" cy="50" r="45"></circle>
-                <circle class="cbar" cx="50" cy="50" r="45" style="--percent: 0.7"></circle>
-              </svg>
-              <span class="tl-name">IntelliJ</span>
-              <span class="tl-exp">70%</span>
-            </li>
-            <li>
-              <svg viewbox="0 0 100 100">
-                <circle cx="50" cy="50" r="45"></circle>
-                <circle class="cbar" cx="50" cy="50" r="45" style="--percent: 0.7"></circle>
-              </svg>
-              <span class="tl-name">Oracle VM</span>
-              <span class="tl-exp">60%</span>
-            </li>
-            <li>
-              <svg viewbox="0 0 100 100">
-                <circle cx="50" cy="50" r="45"></circle>
-                <circle class="cbar" cx="50" cy="50" r="45" style="--percent: 0.7"></circle>
-              </svg>
-              <span class="tl-name">Hyper-V</span>
-              <span class="tl-exp">60%</span>
-            </li>
-          </ul>
+    <!-- Praktikum CTA Section -->
+    <section class="praktikum-cta">
+      <div class="cta-content">
+        <div class="cta-icon">
+          <i class="fas fa-calendar-check"></i>
         </div>
+        <div class="cta-text">
+          <h2>Praktikum gesucht</h2>
+          <p>Ich suche ein 6-monatiges Pflichtpraktikum vom <strong>17.03.2026 bis 20.11.2026</strong></p>
+          <p class="cta-benefit"><i class="fas fa-check-circle"></i> Keine Kosten für Ihr Unternehmen (Pflichtpraktikum)</p>
+          <p class="cta-benefit"><i class="fas fa-check-circle"></i> Motivierter Entwickler mit ausgezeichneten Leistungen</p>
+          <p class="cta-benefit"><i class="fas fa-check-circle"></i> Möglichkeit zur Übernahme als Junior Developer</p>
+        </div>
+        <a href="#kontakt" class="btn-large">Jetzt Kontakt aufnehmen</a>
       </div>
-      <div>
+    </section>
+
+    <!-- Kontakt Section -->
+    <section id="kontakt" class="section">
+      <h2 class="section-title">
+        <i class="fas fa-envelope"></i>
+        Kontakt
+      </h2>
+      
+      <div class="contact-intro">
+        <p>Interessiert an einer Zusammenarbeit? Ich freue mich auf Ihre Nachricht!</p>
+        <p class="contact-note">
+          <i class="fas fa-shield-alt"></i> 
+          Ihre Daten werden vertraulich behandelt und nicht an Dritte weitergegeben.
+        </p>
       </div>
-      <div>
-        <div class="detail-title">
-          <div class="title-icon">
-            <i class="fas fa-user-graduate"></i>
+
+      <!-- Contact Form -->
+      <div class="contact-form-wrapper">
+        <form id="contactForm" class="contact-form" action="https://formspree.io/f/xanrjvkb" method="POST">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">
+                <i class="fas fa-user"></i> Name / Firma *
+              </label>
+              <input type="text" id="name" name="name" required placeholder="Ihr Name oder Firmenname">
+            </div>
+            
+            <div class="form-group">
+              <label for="email">
+                <i class="fas fa-envelope"></i> E-Mail *
+              </label>
+              <input type="email" id="email" name="email" required placeholder="ihre.email@beispiel.de">
+            </div>
           </div>
-          <span>Bildung</span>
-        </div>
-        <div class="list">
-          <p> <a href="files/Digital_Certificate.pdf" download>
-              Google Training (Zertifikat): Digital Marketing (ID: WJY HJJ ABP) </a></p>
-          <p><a href="files/Zertifikat_DCI.pdf" target="_blank"> (Zertifikat): HTML5, CSS</a></p>
-          <p><a href="https://www.credly.com/badges/e68ee473-35a4-47ed-b9b4-f366dddb3373/public_url"
-              target="_blank">Computer Hardware Basics</a></p>
-          <p><a href="https://www.credly.com/badges/cf2026ed-6d76-42d2-893f-4bdf7ede6d41/public_url"
-              target="_blank">Introduction to Cybersecurity</a> </p>
-          <p><a href="https://www.credly.com/badges/100b69b8-40e4-4f58-b813-39b21b71587e/public_url"
-              target="_blank">Networking Basics</a> </p>
-          <p><a href="https://www.credly.com/badges/84937347-87de-438b-beb6-5415eb059ccd/public_url"
-              target="_blank">Networking Devices and Initial Configurations</a> </p>
+          
+          <div class="form-group">
+            <label for="subject">
+              <i class="fas fa-tag"></i> Betreff
+            </label>
+            <select id="subject" name="subject">
+              <option value="Praktikumsangebot">Praktikumsangebot</option>
+              <option value="Projektanfrage">Projektanfrage</option>
+              <option value="Allgemeine Anfrage">Allgemeine Anfrage</option>
+              <option value="Sonstiges">Sonstiges</option>
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <label for="message">
+              <i class="fas fa-comment-alt"></i> Nachricht *
+            </label>
+            <textarea id="message" name="message" rows="6" required placeholder="Ihre Nachricht..."></textarea>
+          </div>
+          
+          <div class="form-group checkbox-group">
+            <label class="checkbox-label">
+              <input type="checkbox" name="privacy" required>
+              <span>Ich habe die Datenschutzerklärung zur Kenntnis genommen. *</span>
+            </label>
+          </div>
+          
+          <button type="submit" class="btn-submit">
+            <i class="fas fa-paper-plane"></i> Nachricht senden
+          </button>
+          
+          <div id="formStatus" class="form-status"></div>
+        </form>
+      </div>
+
+      <!-- Alternative Contact Methods -->
+      <div class="contact-alternatives">
+        <h3>Oder kontaktieren Sie mich direkt über:</h3>
+        <div class="contact-links">
+          <a href="https://www.linkedin.com/in/giovanni-angileri-a87983231/" target="_blank" rel="noopener" class="contact-btn linkedin">
+            <i class="fab fa-linkedin"></i> LinkedIn
+          </a>
+          <a href="https://github.com/GiovyAngy" target="_blank" rel="noopener" class="contact-btn github">
+            <i class="fab fa-github"></i> GitHub
+          </a>
         </div>
       </div>
-    </div>
+
+      <!-- Info Cards -->
+      <div class="contact-info-grid">
+        <div class="contact-info-card">
+          <i class="fas fa-map-marker-alt"></i>
+          <h3>Standort</h3>
+          <p>Berlin, Deutschland</p>
+        </div>
+        
+        <div class="contact-info-card">
+          <i class="fas fa-language"></i>
+          <h3>Sprachen</h3>
+          <p>Italienisch (Muttersprache)<br>Deutsch (B2) • Englisch (A2)</p>
+        </div>
+        
+        <div class="contact-info-card">
+          <i class="fas fa-clock"></i>
+          <h3>Verfügbarkeit</h3>
+          <p>Praktikum ab 17.03.2026<br>6 Monate</p>
+        </div>
+      </div>
+    </section>
   </div>
-  <footer>
+
+  <!-- Footer -->
+  <footer class="footer">
     <p>© 2025 Giovanni Angileri. Alle Rechte vorbehalten.</p>
+    <p class="footer-tagline">Fachinformatiker für Anwendungsentwicklung • Berlin</p>
+    <div class="footer-links">
+      <a href="#" onclick="alert('Datenschutzerklärung: Ihre Daten werden ausschließlich zur Kontaktaufnahme verwendet und nicht an Dritte weitergegeben.'); return false;">Datenschutz</a>
+      <span>•</span>
+      <a href="#" onclick="alert('Impressum: Giovanni Angileri, Berlin, Deutschland'); return false;">Impressum</a>
+    </div>
   </footer>
+
+  <script>
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+
+    // Form handling
+    const form = document.getElementById('contactForm');
+    const formStatus = document.getElementById('formStatus');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      
+      const submitBtn = form.querySelector('.btn-submit');
+      const originalText = submitBtn.innerHTML;
+      submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Wird gesendet...';
+      submitBtn.disabled = true;
+      
+      try {
+        const response = await fetch(form.action, {
+          method: 'POST',
+          body: new FormData(form),
+          headers: {
+            'Accept': 'application/json'
+          }
+        });
+        
+        if (response.ok) {
+          formStatus.innerHTML = '<div class="success"><i class="fas fa-check-circle"></i> Vielen Dank! Ihre Nachricht wurde erfolgreich gesendet. Ich melde mich in Kürze bei Ihnen.</div>';
+          form.reset();
+        } else {
+          throw new Error('Fehler beim Senden');
+        }
+      } catch (error) {
+        formStatus.innerHTML = '<div class="error"><i class="fas fa-exclamation-circle"></i> Es gab ein Problem beim Senden. Bitte kontaktieren Sie mich über LinkedIn.</div>';
+      } finally {
+        submitBtn.innerHTML = originalText;
+        submitBtn.disabled = false;
+      }
+    });
+  </script>
 </body>
 </html>
