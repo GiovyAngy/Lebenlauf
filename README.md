@@ -35,4 +35,4 @@ Clone the repository:
 Kopieren
 Customize the content with your own data.
 ### 📬 Contact
-For questions or suggestions, please contact me at giovyangydev@gmail.com.
+For questions or suggestions, please contact [me](https://giovyangy.github.io/Lebenlauf/index.html#kontakt).
