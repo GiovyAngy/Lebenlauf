@@ -16,7 +16,7 @@ Klonen Sie das Repository:
 Kopieren
 Passen Sie die Inhalte an Ihre eigenen Daten an.
 ### 📬 Kontakt
-Für Fragen oder Anregungen kontaktieren Sie mich bitte unter giovyangydev@gmail.com.
+Bei Fragen, Anregungen oder Kooperationsangeboten kontaktieren Sie [mich bitte](https://giovyangy.github.io/Lebenlauf/index.html#kontakt).
 
 ### English
 
@@ -35,4 +35,4 @@ Clone the repository:
 Kopieren
 Customize the content with your own data.
 ### 📬 Contact
-For questions or suggestions, please contact [me](https://giovyangy.github.io/Lebenlauf/index.html#kontakt).
+For questions, suggestions, or collaborations, please contact [me](https://giovyangy.github.io/Lebenlauf/index.html#kontakt).
