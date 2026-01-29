@@ -587,13 +587,19 @@
 
   <!-- Footer -->
   <footer class="footer">
-    <p>© 2025 Giovanni Angileri. Alle Rechte vorbehalten.</p>
+    <p>© 2026 Giovanni Angileri. Alle Rechte vorbehalten.</p>
     <p class="footer-tagline">Fachinformatiker für Anwendungsentwicklung • Berlin</p>
     <div class="footer-links">
-      <a href="#"
-        onclick="alert('Datenschutzerklärung: Ihre Daten werden ausschließlich zur Kontaktaufnahme verwendet und nicht an Dritte weitergegeben.'); return false;">Datenschutz</a>
-      <span>•</span>
-      <a href="#" onclick="alert('Impressum: Giovanni Angileri, Berlin, Deutschland'); return false;">Impressum</a>
+      <a href="#" onclick="openModal('privacy'); return false;">Datenschutz</a>
+<span>•</span>
+<a href="#" onclick="openModal('impressum'); return false;">Impressum</a>
+
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">×</span>
+    <p id="modal-text"></p>
+  </div>
+</div>
     </div>
   </footer>
 
@@ -643,6 +649,25 @@
         submitBtn.disabled = false;
       }
     });
+
+
+    function openModal(type) {
+  const text = document.getElementById("modal-text");
+
+  if (type === "privacy") {
+    text.innerText =
+      "Datenschutzerklärung: Ihre Daten werden ausschließlich zur Kontaktaufnahme verwendet und nicht an Dritte weitergegeben.";
+  } else {
+    text.innerText =
+      "Impressum: Giovanni Angileri, Berlin, Deutschland";
+  }
+
+  document.getElementById("modal").style.display = "flex";
+}
+
+function closeModal() {
+  document.getElementById("modal").style.display = "none";
+}
   </script>
 </body>
 

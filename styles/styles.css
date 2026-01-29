@@ -1094,3 +1094,35 @@ body {
     width: 100%;
   }
 }
+
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(69, 170, 253, 0.13);
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal-content {
+  background: var(--primary-color);
+  position: relative;
+  padding: 20px 30px;
+  max-width: 400px;
+  border-radius: 10px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  color: white;
+}
+
+.close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  cursor: pointer;
+  font-size: 22px;
+  line-height: 1;
+}
